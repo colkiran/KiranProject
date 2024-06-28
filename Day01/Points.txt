@@ -1,0 +1,385 @@
+Python
+------
+why python taking over technologies like JAVA and Dotnet?
+
+Open Source Technology
+----------------------
+desktop app - TKinter (TK (tool kit)- TCL (tool command language))
+
+web app	    - MVC, RESTful Services - Flask, Django, Fast
+
+mobile	    - Kivy
+
+Testing	    - unit test, pytest
+
+Automation  - paramiko
+
+Webscrapping - Beautiful Soup
+
+---------------------------------------------
+
+ML 
+
+AI
+
+Data Analytics
+
+Data Science
+
+
+
+Python
+------
+www.python.org		3.12.x
+
+2.x => 3.x (syntax)
+
+flavours of Python
+------------------
+1. Cpython	- currently using
+
+2. Java 	- Jython
+
+3. Iron Python  - dotnet libraries
+
+
+Editors
+-------
+PyCharm		- Community Edition (CE)
+
+VScode 		- CE
+
+Eclipse(patch) 
+
+sublimetext
+
+Notepad++
+
+Anaconda - Jupyter note book
+
+
+
+
+Python 3.11.x
+-------------
+1. SDK - libraries used to execute python files
+
+2. Python shell -interactive Environment
+
+3. IDLE - Interactive Develop Environment
+
+Guido Van Russum - founder of python
+
+----------------------------------------------
+
+larry wall - Perl
+
+Matz	   - Ruby
+
+-----------------------------------------------
+
+python 
+------
+operators that are overloaded by default
+
++ => addition and concatenation
+
+* => multiplication and to print a string n number of times
+
+
+Data types in python 2.x
+--------------------
+1. numbers
+  a. integers
+  b. long
+  c. float
+  d. complex
+ 
+2. strings
+3. Boolean
+
+Frozen Binaries
+---------------
+
+src + PVM + lib    
+
+use a third party tool and pack them all -> convert it into an exe file
+
+python file extension
+----------------------
+
+.py 
+
+
+function fun(a, b)
+{
+
+}
+
+fun(10, 20)
+fun(10, 20)
+fun(10, 20)
+fun(10, 20)
+fun(10, 20)
+
+--------------------------------------------------
+to execute a python script more than once in python shell
+
+we can use reload function from imp module
+
+import imp
+
+imp.reload()
+
+-----------------------------
+
+from imp import reload
+
+reload
+
+
+C:\\temp\\users
+
+--------------------------------------------------------
+
+IDLE - can create files
+
+
+PyCharm - Can create a project 
+
+1. virtual Environment - (directory)
+
+(venv) c:\users\kiran\myvirtenv
+
+pip install numpy
+
+python will get connected to its repository, it will buffer the file and install it. Once installed it clears the buffer
+
+1. internet
+2. rights to install
+
+to remove the virtual environment
+
+rm -rf virtual_env_name
+
+-----------------------------------------------------------------------
+
+Coding Rules
+------------
+#! - Shebang - used to specify the path of python executable
+
+
+comments
+--------
+# is used to comment a line in python (single line comment)
+
+strings in python are enclosed in " " or ' ' (single line string)
+
+multiline string will be enclosed in 
+"""
+
+"""
+or
+'''
+
+'''
+---------------------------------------------------------------
+functions in python
+-------------------
+on top of the function we can write some information which describes the function that is called DOCSTRING
+
+"this is a string"
+
+--------------------------------------------------------------
+python does not depend on { } paranthesis
+
+def fun():
+    for i in range(10):
+    	print("Hello World")
+    
+    print("Hello World")
+    print("Hello World")
+
+print("Hello World")
+
+modulus function returns the reminder
+-------------------------------------
+
+5 % 2  = 5 / 2  = 1
+
+6 % 2  = 6 / 2  = 0
+
+Variable data types
+-------------------
+C and C++
+---------
+int i;			# static  (compilation time)
+
+i = 10
+
+Python
+------
+i = 10	
+
+
+i = True
+
+
+i = "Hello"
+
+
+i = 3i + 4j	
+
+
+---------------------------------------------
+
+i = 10
+
+def fun():
+    i = 200
+
+fun()
+
+print(i)
+
+----------------------------------------------------------------
+python 3.x primitive data types 
+-------------------------------
+1. Numbers
+   a. integer
+   b. float
+   c. complex 
+
+2. String
+3. Boolean
+
+Operators
+----------
+Arithmetic Operators
+
+Augmentor = =, +=, -=, *=
+
+Bitwise Operators
+------------------
+or Operator
+-----------
+
+0101
+0011
+----
+0111
+----
+
+and Operator
+------------
+0101
+0011
+----
+0001	
+----
+
+xor Operator
+------------
+0 xor 0 = 0
+1 xor 1 = 0
+1 xor 0 = 1
+0 xor 1 = 1
+
+
+0101
+0011
+----
+0110
+----
+
+left shift operator <<
+-----------------------
+0101 <<  1010 = 10
+
+1010 <<  10100
+
+1000 << 10000
+
+0101 >> 0010
+
+sequences
+---------
+sequences are ordered and indexed - lists, tuples and strings 
+
+
+Loops and Control Structures
+----------------------------
+
+Loops
+-----
+1. for loop
+2. while loop
+
+
+for loop
+--------
+is same as foreach loop, it depends on a collection
+
+collection is given by range function
+
+
+print
+-----
+print(data, sep, end="\n")
+
+
+
+Assignments
+-----------
+
+print the pattern
+-----------------
+1
+23
+456
+78910
+
+   1
+  2 3
+ 4 5 6
+7 8 9 10
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1 
+
+2. generate the fibanocci series
+
+3. 1 = 1!
+   2 = 2!
+ 145 = 1! + 4! + 5!
+ ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

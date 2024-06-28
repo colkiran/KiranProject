@@ -1,0 +1,141 @@
+C 
+---
+"this is a string \n"	= escape sequences will work
+
+'this is a string \n'   = escape sequences will not work
+
+
+Strings
+-------
+
+STRINGS ARE IMMUTABLE
+----------------------
+
+single line strings are enclosed in " " or ' '
+
+
+print("we can't attend the party")
+
+print(f"(ord('a') :{ord('a')}")
+
+multiline string we use """   """ or '''   '''
+
+print(st[0]) => h -> strings are stored like lists(arrays)
+
+
+range is a function - if we pass arguments to the function the we seperate it with comma
+range(1, 10) -
+
+add(10, 20)
+
+a = 10, b = 20, c = 30
+
+print(a, b, c)
+
+
+def add(x, y):
+   return x + y
+
+
+add(10, 20)
+
+Rules to create a variable
+--------------------------
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the Python keywords.
+
+class string:
+
+  def index(char, s):
+	return s[x]
+  
+  def count(char, s):
+	return s[x]
+  
+  def lstrip(char, s):
+	return s[x]
+  
+  def rstrip(char, s):
+	return s[x]
+
+
+
+st = string()
+
+
+Python Data structures
+----------------------
+1. Lists
+
+2. Dictionaries
+
+3. Tuples
+
+4. Sets
+
+
+-----------------------------------------------------------------------------
+
+What are arrays?
+
+1. collection of homogenous data
+2. memory allocation is contagious
+	 abc1  abc2  abc3  abc4
+emoid = 1001, 1123, 1908, 1457
+
+
+List
+----
+lists are similar to arrays
+
+Lists are mutable
+
+1. lists are collection of heterogenous data
+
+l1 = [1, 2, 3, 4, 'a', 'b', 'c', 'd', True, False, 11.5, 12.0, 13.9, 14.2]
+
+2. memory allocation is not contagious
+
+
+functions used to manipulate a list
+-----------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+add new elements
+----------------
+append  - can add only one element (at the end of the list)
+extend  - can add more than one element (at the end of the list)
+insert  - can add one element in any position in the list
+
+
+pop 	- remove an element and returns the removed element
+remove
+clear
+
+index
+count
+
+copy
+
+sort
+reverse
+
+l1.count(2)
+l1.copy()
+
+deepcopy(l1)
+
+tuple - immutable list - (1, 2, 3)
+
+
+parthkapote@gmail.com
+
+
+
+
+
+
+
