@@ -32,4 +32,5 @@ print(res)
 print("-" * 60)
 def diff(a, b):
     print(a - b)
-    diff(a*2 - b* 1)
+    diff(a*2 - b*1)
+
